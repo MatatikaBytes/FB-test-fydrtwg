@@ -13,6 +13,12 @@ plugins:
   - name: tap-google-analytics
     variant: matatika
     pip_url: git+https://github.com/Matatika/tap-google-analytics@v0.3.0
+  - name: tap-shopify
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-shopify@v0.3.2
+  - name: tap-facebook-systemtoken
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/tap-facebook.git
   loaders:
   - name: target-postgres
     variant: matatika
@@ -33,6 +39,9 @@ plugins:
   - name: analyze-google-analytics
     variant: matatika
     pip_url: git+https://github.com/Matatika/analyze-google-analytics@v0.4.1
+  - name: analyze-shopify
+    variant: matatika
+    pip_url: git+https://github.com/Matatika/analyze-shopify@v0.1.0
   utilities:
   - name: matatika
     variant: matatika
